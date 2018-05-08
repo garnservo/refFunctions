@@ -1,5 +1,5 @@
 #refFunctions v1.0#
-the QGIS plugin provide a 'Reference' group under field calculator with function for analytical or spatial reference to featurse in other layers.  
+This QGIS plugin provides a 'Reference' group under field calculator with functions for analytical or spatial reference to features in other layers.  
 Uninstalling plugin removes funtions from field calculator
 ##Table functions:
 **dbvalue(targetLayer,targetField,keyField,conditionValue)**  
@@ -14,7 +14,7 @@ Retrieve results from SQL query
 **WKTcentroid('WKTgeometry')**  
 Return the center of mass of the given geometry as WKT point geometry  
 **WKTpointonsurface('WKTgeometry')**  
-Return the point within  the given geometry  
+Return the point within the given geometry  
 **WKTlenght('WKTgeometry')**  
 Return the length of the given WKT geometry  
 **WKTarea('WKTgeometry')**  
